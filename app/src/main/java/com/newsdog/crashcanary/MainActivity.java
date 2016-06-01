@@ -14,7 +14,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final CrashCanary crashCanary = new CrashCanary.Builder(this).build();
+        final CrashCanary crashCanary = new CrashCanary.Builder(this)
+                .setExceptionHandler(new Thread.UncaughtExceptionHandler() {  // 设置自己的异常处理 Handler
+                    @Override
+                    public void uncaughtException(Thread thread, Throwable ex) {
+
+                    }
+                })
+                .setKillProcessWhenCrash(true)      // 发生crash之后关闭应用,再次进入应用时会有crash通知
+                .build();
 
         Button btn = (Button) findViewById(R.id.submit_btn);
         btn.setOnClickListener(new View.OnClickListener() {
