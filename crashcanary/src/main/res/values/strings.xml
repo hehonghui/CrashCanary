@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CrashCanary</string>
+
+    <string name="show_log">查看日志</string>
+    <string name="clear_all">清空日志</string>
+    <string name="copy">复制日志</string>
+    <string name="copy_success">crash日志已经复制~</string>
+    <string name="close">关闭</string>
+    <string name="empty_log">日志为空</string>
+    <string name="log_detail">详细日志</string>
+    <string name="crash_occur">Crash!!!</string>
+
+</resources>
