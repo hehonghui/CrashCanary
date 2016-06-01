@@ -2,7 +2,7 @@
 
 ![](./crashcanary/src/main/res/drawable/crash_icon.png)
 
-CrashCanary 是一个记录Android 应用程序 Crash的库，当程序发生Crash时CrashCanary会将Crash 日志存储到本地，并且在下次进入应用时通过通知栏提示开发人员，开发人员点击通知栏即可进入到Log详情页面。开发人员也可以手动查看Crash日志列表以及每个Log的详细信息.
+CrashCanary 是一个记录Android 应用程序 Crash的库，当程序发生Crash时CrashCanary会将Crash 日志存储到本地，并且在下次进入应用时通过通知栏提示开发人员，开发人员点击通知栏即可进入到Log详情页面。开发人员也可以手动查看Crash日志列表以及每个Log的详细信息. [下载示例apk](demo.apk?raw=true "download")
 
 示例代码如下: 
 
